@@ -3,6 +3,9 @@
 A single-file Bootstrap 5 template (`index.html`) for a student diversity &
 inclusion project page.
 
+Many Voices is a project for students to interact and communicate between all
+diversities. You can learn, ask, socialise, and find a place safe to belong to.
+
 ## Opening this project
 
 1. Unzip this folder anywhere on your machine.
@@ -34,3 +37,5 @@ Everything — copy, colors, fonts, layout — lives in `index.html`:
 Since it's a single static HTML file with no build step, you can drag
 `index.html` into any static host (GitHub Pages, Netlify, Vercel) or just
 open it directly in a browser.
+
+The repository also includes a GitHub Pages workflow in `.github/workflows/static.yml`.
