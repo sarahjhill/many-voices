@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.root": "/",
+		"liveServer.settings.CustomBrowser": "default",
+		"editor.formatOnSave": true,
+		"html.format.wrapLineLength": 120,
+		"files.associations": {
+			"*.html": "html"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ritwickdey.liveserver",
+			"formulahendry.auto-close-tag",
+			"formulahendry.auto-rename-tag",
+			"esbenp.prettier-vscode",
+			"pranaygp.vscode-css-peek"
+		]
+	}
+}
