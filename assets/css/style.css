@@ -77,7 +77,7 @@
   }
   .btn-outline-ink:hover{ background: var(--ink); color: var(--paper); }
 
-  /* ---------- Hero ---------- */
+  /* Hero */
   .hero{ padding: 5rem 0 4rem; }
   .hero h1{
     font-size: clamp(2.4rem, 5vw, 3.75rem);
@@ -109,7 +109,7 @@
     .thread-anim{ animation: none; }
   }
 
-  /* ---------- Stats ---------- */
+  /* Stats */
   .stats-bar{
     background: var(--ink);
     color: var(--paper);
@@ -129,11 +129,11 @@
     color: rgba(246,244,239,0.7);
   }
 
-  /* ---------- Section basics ---------- */
+  /* Section basics */
   section{ padding: 5rem 0; }
   .section-title{ font-size: clamp(1.8rem, 3vw, 2.5rem); }
 
-  /* ---------- Pillars ---------- */
+  /* Pillars */
   .pillar-card{
     background: #fff;
     border: 1px solid rgba(35,35,59,0.08);
@@ -157,7 +157,7 @@
     background: rgba(227,167,44,0.18);
   }
 
-  /* ---------- Voices mosaic ---------- */
+  /* Voices mosaic */
   .voices-wrap{ background: #fff; border-radius: var(--radius); padding: 2.5rem; }
   .voice-chip{
     display: inline-block;
@@ -185,7 +185,7 @@
   .voice-d{ background: rgba(107,92,165,0.14); }
   .voice-e{ background: rgba(61,122,71,0.13); }
 
-  /* ---------- Events ---------- */
+  /* Events */
   .event-row{
     border-top: 1px solid rgba(35,35,59,0.1);
     padding: 1.5rem 0;
@@ -199,7 +199,7 @@
     min-width: 92px;
   }
 
-  /* ---------- Get involved / resources ---------- */
+  /* Get involved / resources */
   .resource-card{
     border: 1px solid rgba(35,35,59,0.1);
     border-radius: var(--radius);
@@ -217,7 +217,7 @@
   .cta-band .btn-ochre{ background: var(--ochre); color: var(--ink); }
   .cta-band .btn-ochre:hover{ background: #fff; }
 
-  /* ---------- Footer ---------- */
+  /* Footer */
   footer{
     background: var(--ink);
     color: rgba(246,244,239,0.75);
