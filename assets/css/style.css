@@ -153,6 +153,10 @@
     margin-bottom: 1.1rem;
   }
 
+  .pillar-icon-yellow {
+    background: rgba(227,167,44,0.18);
+  }
+
   /* ---------- Voices mosaic ---------- */
   .voices-wrap{ background: #fff; border-radius: var(--radius); padding: 2.5rem; }
   .voice-chip{
