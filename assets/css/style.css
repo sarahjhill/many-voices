@@ -134,6 +134,11 @@
   .section-title{ font-size: clamp(1.8rem, 3vw, 2.5rem); }
 
   /* Pillars */
+
+  #pillars {
+    background: #fff;
+  }
+
   .pillar-card{
     background: #fff;
     border: 1px solid rgba(35,35,59,0.08);
@@ -151,6 +156,18 @@
     border-radius: 12px;
     display: flex; align-items: center; justify-content: center;
     margin-bottom: 1.1rem;
+  }
+
+  #pillar1 {
+    background: rgba(44,125,125,0.16);
+  }
+
+  #pillar2 {
+    background: rgba(228,87,46,0.15);
+  }
+
+  #pillar4 {
+    background: rgba(07,92,165,0.16);
   }
 
   .pillar-icon-yellow {
@@ -237,4 +254,17 @@
   a:focus-visible, button:focus-visible{
     outline: 2px solid var(--coral);
     outline-offset: 2px;
+  }
+
+  .var-inksoft { 
+    color: var(--ink-soft); 
+  }
+
+  p-light {
+    max-width: 32rem;
+    opacity: 0.9;
+  }
+
+  p-sm {
+    max-width: 20rem;
   }
