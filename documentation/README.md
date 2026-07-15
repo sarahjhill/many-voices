@@ -20,11 +20,6 @@ In this website you will be able to see our mission, allow communities and indiv
 **Site Mockups**
 *([amiresponsive](https://ui.dev/amiresponsive?url=https://sarahjhill.github.io/many-voices), [techsini](https://techsini.com/multi-mockup), etc.)*
 
-![screenshot](documentation/mockups/images/longshot-full.png)
-![screenshot](documentation/mockups/images/fullscreen-mockup.png)
-source: [many-voices amiresponsive](https://ui.dev/amiresponsive?url=https://sarahjhill.github.io/many-voices)
-
-
 ## UX
 
 Building this web site with the users in mind was at the forfront of this design. I wanted to call to the students in a way they can relate to and point them to the right places straight away.
