@@ -10,55 +10,45 @@ Developer: Sarah Hill ([sarahjhill](https://www.github.com/sarahjhill))
 
 # Many Voices — Diversity & Inclusion Student Initiative
 
-After to speaking to students and as a woman in tech with a diverse background myself, I felt like it was a good idea to build a diversity and inclusion club that is run by students themselves for students. Rather than reading about it from an institution, it provides an opportunity for students to grow together, understand each other and learn to respect and get along with all people and backgrounds in a safe environment.
+After to speaking to students and as a woman in tech with a diverse background myself, I felt like it was a good idea to build a diversity and inclusion club that is run by students themselves for students. Rather than reading about it from an institution, it provides an opportunity for students to grow together, understand each other and learn to respect and get along with all people and backgrounds in a safe environment. As well as that we can provide resourses and suppot information that is availble.
 
-It is inevitable that we all won't agree on everything, but by growing a community together and helping each other we can all be stronger.
+It is inevitable that we all won't agree on everything, but by growing a community together and helping each other we can all be stronger and make things easier.
 
 In this website you will be able to see our mission, allow communities and individuals to speak and learn together, see local events and available resourses and find many ways to connect with us. 
 
-🛑 README NOTES 🛑
-
-Don't add screenshots for the README/TESTING into your `assets` or `static` folders. Create a new folder at the root-level called `documentation`. Consider creating sub-directories within `documentation` to handle things like `wireframes`, `features`, `validation`, `responsiveness`, etc.
 
 **Site Mockups**
 *([amiresponsive](https://ui.dev/amiresponsive?url=https://sarahjhill.github.io/many-voices), [techsini](https://techsini.com/multi-mockup), etc.)*
-Having issues generating site mockups? This is likely due to security policies with your deployed site.
-If you open up your DevTools, there may be an error referencing `X-Frame-Options`.
-
-For Chrome users, head over to http://bit.ly/3iRPn4u and install the extension within your browser. Once installed, navigate back to the mockup site of your choice. You should find your site rendering in the various devices now.
-
-Alternatively, open your project in Gitpod and run the server. Once the site is running, click the `Ports` tab from your Gitpod Terminal. Click the padlock on the appropriate port for your project (`Flask: 5000`, `Django: 8000`). This will make your local page public temporarily. Now, copy the URL of your live-preview page into the responsive tool above. You should find your site rendering in the various devices.
-
-🛑 --- END ---- 🛑
 
 ![screenshot](documentation/mockups/images/longshot-full.png)
-![screenshot](documentation/mockups/images/Many Voices — Design Reference.pdf)
-
+![screenshot](documentation/mockups/images/fullscreen-mockup.png)
 source: [many-voices amiresponsive](https://ui.dev/amiresponsive?url=https://sarahjhill.github.io/many-voices)
 
 
 ## UX
 
+Building this web site with the users in mind was at the forfront of this design. I wanted to call to the students in a way they can relate to and point them to the right places straight away.
 
-
-### The 5 Planes of UX
 
 #### 1. Strategy
 
 **Purpose**
 - Encourage users to join the Many Voices Club by becoming members and or turning up to events.
-- Provide a different user experience to keep users informed by their peers and alow them to meet and talk to their peers in a sfe space.
+- Provide a different user experience to keep users informed by their peers and allow them to meet and talk to their peers in a safe space.
+- Provide information and links to support that is available to them.
 
 **Primary User Needs**
 - Learn about the club’s purpose and events.
 - Join the club and stay updated.
 - Access responsive, user-friendly content.
-- Give the community a voice.
+- Allow their voice to be heard and see how the community how they casn help and how the community csan help them.
+
 
 **Business Goals**
 - Increase knowlege of the clubs events
 - Provide knowlege of inclusivity and promote respect
 - Boost participation in events and social media engagement.
+- Promote causes that are associated with it.
 
 #### 2. Scope
 
@@ -68,7 +58,7 @@ source: [many-voices amiresponsive](https://ui.dev/amiresponsive?url=https://sar
 - Clear, motivational text about the club’s mission.
 - Event schedules and descriptions.
 - Forms for membership sign-up.
-- Give people in the community a voice and promote awareness
+- Give people in the community a voice and promote awareness with forums and interactive sections.
 
 
 #### 3. Structure
@@ -79,7 +69,7 @@ source: [many-voices amiresponsive](https://ui.dev/amiresponsive?url=https://sar
 - **Hierarchy**:
   - Clear call-to-action buttons.
   - Prominent placement of events.
-  - Prvide resourse materials for help and support
+  - Provide resourse materials for help and support
 
 
 **User Flow**
@@ -100,8 +90,6 @@ source: [many-voices amiresponsive](https://ui.dev/amiresponsive?url=https://sar
 - **[Typography](#typography)** (see below)
 
 ### Colour Scheme
-
-⚠️INSTRUCTIONS ⚠️
 
 Explain your colors and color scheme. Consider adding a link and screenshot for your color scheme using [coolors](https://coolors.co/generate).
 
