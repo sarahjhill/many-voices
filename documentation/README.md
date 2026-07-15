@@ -18,7 +18,7 @@ In this website you will be able to see our mission, allow communities and indiv
 
 
 **Site Mockups**
-*([amiresponsive](https://ui.dev/amiresponsive?url=https://sarahjhill.github.io/many-voices), [techsini](https://techsini.com/multi-mockup), etc.)*
+*([amiresponsive](https://ui.dev/amiresponsive?url=https://sarahjhill.github.io/many-voices), [photoshop](https://photoshop.adobe.com/?promoid=LCDWT9XV&lang=en&mv=other&mv2=tab), [claude ai](https://claude.ai/public/artifacts/5e3b2581-4904-46c4-97a6-06271754741d) ) *
 
 ## UX
 
@@ -92,18 +92,20 @@ When you add a color to the palette, the URL is dynamically updated, making it e
 
 ⚠️ --- END --- ⚠️
 
-I used [coolors.co](https://coolors.co/080708-3772ff-df2935-fdca40-e6e8e6) to generate my color palette.
+I used claude ai for suggestions of the color palette.
 
-- `#000000` primary text.
-- `#3772FF` primary highlights.
-- `#DF2935` secondary text.
-- `#FDCA40` secondary highlights.
+Why this palette over the obvious choices: websites in this space default to either (a) a single institutional blue, which reads corporate/cold, or (b) a rainbow gradient, which can feel like a stock "diversity" cliché rather than a considered brand. This palette keeps one warm neutral, one dark ink, and a small set of accent colors used consistently by role (ochre = primary action, teal = section labels, coral = interaction states, five threads = the "many voices" motif) — deliberate rather than decorative, and every text/background pairing was checked against WCAG AA contrast minimums.
 
-![screenshot](documentation/coolors.png)
+- `#F6F4EF` paper. base background color.
+- `#23233B` Primary text / dark sections
+- `#E3A72C` Primary accent / CTAs on dark
+- `#2C7D7D` Secondary accent / eyebrows, CTA band
+- `#E4572E` Tertiary accent / hover, focus states
+- `Thread colors"` Signature illustration + voice chips
+
+![screenshot](documentation/images/color-palette.png)
 
 ### Typography
-
-⚠️ INSTRUCTIONS ⚠️
 
 Explain any fonts and icon libraries used, like **Google Fonts**, **Font Awesome**, etc. Consider adding a link to each font used, the Font Awesome site (if used), or similar icon library.
 
@@ -113,16 +115,12 @@ Explain any fonts and icon libraries used, like **Google Fonts**, **Font Awesome
 - [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
-## Wireframes
-
-⚠️ INSTRUCTIONS ⚠️
-
-If you've created wireframes or mock-ups, use this section to display screenshots of your wireframes. The example table below uses sample pages from the walkthrough project to give you some inspiration for your own project, so please adjust accordingly.
-
-⚠️ --- END --- ⚠️
+## Responsiveness
 
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+I've used [Bootstrap](https://getbootstrap.com/) to make sure my site looks good on all screen sizes and used [Google chrome dev tools](https://developer.chrome.com/docs/devtools?gad_source=1&gad_campaignid=22379518754&gbraid=0AAAAAC1d8f40QHFTYh_nAiYyPVv-AXwGa&gclid=Cj0KCQjw39zSBhDhARIsANammDsu7eijDNzex9dhMAqVpGC9vDJsAl9DI32mthNNHSTZ5i4i1QrtVAUaAqVXEALw_wcB) to test it with. 
+
+## Wireframes
 
 | Page | Mobile | Tablet | Desktop |
 | --- | --- | --- | --- |
@@ -134,11 +132,8 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ## User Stories
 
-⚠️ INSTRUCTIONS ⚠️
 
-In this section, list all of your possible user stories for the project. Samples have been provided below using the example walkthrough project for your inspiration. Make sure to adjust to match your own project features!
 
-⚠️ --- END --- ⚠️
 
 | Target | Expectation | Outcome |
 | --- | --- | --- |
@@ -177,30 +172,15 @@ In this section, you should go over the different parts of your project, and des
 
 ### Future Features
 
-⚠️ INSTRUCTIONS ⚠️
-
-Do you have additional ideas that you'd like to include on your project in the future? Fantastic, list them here! It's always great to have plans for future improvements. Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-A few examples are listed below to align with possible ways to improve on the sample walkthrough project, to give you some inspiration.
-
-⚠️ --- END ---⚠️
-
-- **Personalized User Profiles**: Allow users to create accounts where they can track their running progress, view personal stats, and share their achievements.
+- **Image Section**: Allow users to share and veiw their pictures.
 - **Training Plans**: Offer customizable training plans for runners of all levels (beginner, intermediate, advanced) with notifications and reminders.
-- **Event Registration & Payment**: Integrate an option for runners to register and pay for upcoming events or races directly through the site.
-- **Achievements & Badges**: Introduce a gamification system where users earn badges or achievements for reaching milestones (e.g., number of runs, personal bests, attending events).
-- **Interactive Maps**: Display interactive running route maps, complete with distance markers, elevation data, and difficulty ratings.
-- **Live Event Tracking**: Provide real-time tracking for major club events so users can follow along or support friends running in real-time.
-- **Runner's Blog**: Include a blog section for members to share their running experiences, tips, and stories, fostering community engagement.
-- **Leaderboards**: Add a feature where users can compare their running stats with others in the club via leaderboards (e.g., most kilometers run, fastest times).
-- **Weekly Challenges**: Implement weekly running challenges or group challenges to keep users motivated and engaged.
-- **Weather Integration**: Show local weather conditions for Dublin and suggest the best times for a run, based on user preferences.
-- **Social Sharing**: Enable users to share their runs, achievements, or event participation directly on social media from the site.
-- **Club Merchandise Store**: Introduce an online store where users can purchase branded running gear like shirts, jackets, or water bottles.
-- **Push Notifications**: Allow users to opt-in for mobile push notifications for schedule updates, new events, or motivational reminders.
-- **Virtual Runs**: Create a platform for virtual runs where members can participate remotely and still receive medals or rewards.
-- **Member Forums or Groups**: Introduce discussion boards or group chats for runners to connect, discuss upcoming events, or share training tips.
-- **Charity Partnerships**: Offer integration with local charities where club members can run to raise money or awareness for specific causes.
+- **Event Registration & Payment**: Integrate an option for students to donate, suggest and pay for future events
+- **Achievements & Badges**: Introduce a gamification system where users earn badges or achievements for supporting others and interacting.
+- **Live Event Tracking**: Provide real-time tracking for major club events so users can follow along or support the community.
+- **Students Blog**: Include a blog section for members to share their experiences, tips, and stories, fostering community engagement.
+- **Weekly Challenges**: Implement weekly challenges or group challenges to keep users motivated and engaged.
+- **Member Forums or Groups**: Introduce discussion boards or group chats for students to connect, discuss upcoming events, or share training tips.
+- **Charity Partnerships**: Offer integration with local charities where club members can raise money or get support.
 
 ## Tools & Technologies
 
@@ -219,15 +199,8 @@ A few examples are listed below to align with possible ways to improve on the sa
 | [![badge](https://img.shields.io/badge/Copilot-grey?logo=githubcopilot&logoColor=##000000)](https://github.com/copilot) | Help debug, troubleshoot, and explain things. |
 | [![badge](https://img.shields.io/badge/Claude-grey?logo=claude&logoColor=D97757)](https://claude.ai) | Help debug, troubleshoot, and explain things. |
 
-⚠️ NOTE ⚠️
 
-Want to add more?
-
-- Tutorial: https://shields.io/badges/static-badge
-- Icons/Logos: https://simpleicons.org
-  - FYI: not all logos are available to use
-
-🛑 --- END --- 🛑
+--- END ---
 
 ## Agile Development Process
 
