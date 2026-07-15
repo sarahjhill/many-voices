@@ -8,7 +8,7 @@ Developer: Sarah Hill ([sarahjhill](https://www.github.com/sarahjhill))
 [![GitHub repo size](https://img.shields.io/github/repo-size/sarahjhill/many-voices)](https://www.github.com/sarahjhill/many-voices)
 [![badge](https://img.shields.io/badge/deployment-GitHub_Pages-purple)](https://sarahjhill.github.io/many-voices)
 
-⚠️ # Many Voices — Diversity & Inclusion Student Initiative⚠️
+# Many Voices — Diversity & Inclusion Student Initiative
 
 After to speaking to students and as a woman in tech with a diverse background myself, I felt like it was a good idea to build a diversity and inclusion club that is run by students themselves for students. Rather than reading about it from an institution, it provides an opportunity for students to grow together, understand each other and learn to respect and get along with all people and backgrounds in a safe environment.
 
@@ -16,15 +16,9 @@ It is inevitable that we all won't agree on everything, but by growing a communi
 
 In this website you will be able to see our mission, allow communities and individuals to speak and learn together, see local events and available resourses and find many ways to connect with us. 
 
-⚠️ --- END --- ⚠️
-
 🛑 README NOTES 🛑
 
 Don't add screenshots for the README/TESTING into your `assets` or `static` folders. Create a new folder at the root-level called `documentation`. Consider creating sub-directories within `documentation` to handle things like `wireframes`, `features`, `validation`, `responsiveness`, etc.
-
-Learn about Markdown Alerts (aka Callouts), a fairly new feature for GitHub Markdown files.
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts
-Note: these are not visible within your README Previewer, and are only visible once you push the code to GitHub.
 
 **Site Mockups**
 *([amiresponsive](https://ui.dev/amiresponsive?url=https://sarahjhill.github.io/many-voices), [techsini](https://techsini.com/multi-mockup), etc.)*
@@ -37,32 +31,33 @@ Alternatively, open your project in Gitpod and run the server. Once the site is 
 
 🛑 --- END ---- 🛑
 
-![screenshot](documentation/mockup.png)
+![screenshot](documentation/mockups/images/longshot-full.png)
+![screenshot](documentation/mockups/images/Many Voices — Design Reference.pdf)
 
 source: [many-voices amiresponsive](https://ui.dev/amiresponsive?url=https://sarahjhill.github.io/many-voices)
 
-> [!IMPORTANT]  
-> The examples in these templates are strongly influenced by the Code Institute walkthrough project called "Love Running".
 
 ## UX
 
-### The 5 Planes of UX
 
-⚠️ NOTE: make sure to update the text below to match your own project! ⚠️
+
+### The 5 Planes of UX
 
 #### 1. Strategy
 
 **Purpose**
-- Encourage users to join the running club by showcasing its mission, community spirit, and benefits.
-- Provide a seamless user experience to keep users informed and engaged.
+- Encourage users to join the Many Voices Club by becoming members and or turning up to events.
+- Provide a different user experience to keep users informed by their peers and alow them to meet and talk to their peers in a sfe space.
 
 **Primary User Needs**
 - Learn about the club’s purpose and events.
 - Join the club and stay updated.
 - Access responsive, user-friendly content.
+- Give the community a voice.
 
 **Business Goals**
-- Increase club membership.
+- Increase knowlege of the clubs events
+- Provide knowlege of inclusivity and promote respect
 - Boost participation in events and social media engagement.
 
 #### 2. Scope
@@ -71,9 +66,10 @@ source: [many-voices amiresponsive](https://ui.dev/amiresponsive?url=https://sar
 
 **Content Requirements**
 - Clear, motivational text about the club’s mission.
-- Photos showcasing the community.
 - Event schedules and descriptions.
 - Forms for membership sign-up.
+- Give people in the community a voice and promote awareness
+
 
 #### 3. Structure
 
@@ -82,7 +78,9 @@ source: [many-voices amiresponsive](https://ui.dev/amiresponsive?url=https://sar
   - Accessible links in the navbar.
 - **Hierarchy**:
   - Clear call-to-action buttons.
-  - Prominent placement of social media links in the footer.
+  - Prominent placement of events.
+  - Prvide resourse materials for help and support
+
 
 **User Flow**
 1. User lands on the home page → learns about the club’s mission.

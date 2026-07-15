@@ -216,6 +216,10 @@
     min-width: 92px;
   }
 
+  #events {
+    background: #fff;
+  }
+
   /* Get involved / resources */
   .resource-card{
     border: 1px solid rgba(35,35,59,0.1);
@@ -267,4 +271,8 @@
 
   p-sm {
     max-width: 20rem;
+  }
+
+  .many-logo {
+    color: var(--paper);
   }
