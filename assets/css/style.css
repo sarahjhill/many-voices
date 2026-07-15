@@ -243,8 +243,7 @@
   .cta-band .btn-ochre:hover{ background: #fff; }
 
   #join-form {
-    max-width: 28rem;
-    align-items: center;
+    max-width: 400px;
   }
 
   /* Footer */
