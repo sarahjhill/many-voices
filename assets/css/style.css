@@ -21,7 +21,6 @@
     background: var(--paper);
     color: var(--ink);
     font-family: 'Work Sans', sans-serif;
-    -webkit-font-smoothing: antialiased;
   }
 
   h1, h2, h3, .display-font{
@@ -78,11 +77,16 @@
   .btn-outline-ink:hover{ background: var(--ink); color: var(--paper); }
 
   /* Hero */
-  .hero{ padding: 5rem 0 4rem; }
+  .hero{ 
+    padding: 5rem 0 4rem; 
+    background-color: #fff;
+  }
+
   .hero h1{
     font-size: clamp(2.4rem, 5vw, 3.75rem);
     line-height: 1.05;
   }
+
   .hero .lead{
     color: var(--ink-soft);
     font-size: 1.15rem;
