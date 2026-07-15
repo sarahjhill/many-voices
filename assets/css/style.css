@@ -262,6 +262,10 @@
     margin-bottom: 1rem;
   }
 
+  .my-4 {
+    border-color: rgba(246, 244, 239, 0.15); 
+  }
+
   /* Focus visibility */
   a:focus-visible, button:focus-visible{
     outline: 2px solid var(--coral);
