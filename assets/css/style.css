@@ -276,15 +276,62 @@
     color: var(--ink-soft); 
   }
 
-  p-light {
+  #p-light {
     max-width: 32rem;
     opacity: 0.9;
   }
 
-  p-sm {
+  #p-sm {
     max-width: 20rem;
   }
 
   .many-logo {
     color: var(--paper);
+  }
+
+  @media (max-width: 991.98px) {
+    .nav-link {
+      margin: 0;
+      padding: 0.5rem 0;
+    }
+
+    .navbar .btn-ochre {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    section {
+      padding: 3.5rem 0;
+    }
+
+    .hero {
+      padding: 3.5rem 0 3rem;
+    }
+
+    .voices-wrap {
+      padding: 1.25rem;
+    }
+
+    .voice-chip {
+      display: block;
+      max-width: none;
+      margin: 0 0 0.75rem;
+    }
+
+    .event-row {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+      padding: 1.1rem 0;
+    }
+
+    .event-date {
+      min-width: 0;
+    }
+
+    .cta-band {
+      padding: 1.75rem 1.25rem;
+    }
   }
