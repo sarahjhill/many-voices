@@ -242,6 +242,11 @@
   .cta-band .btn-ochre{ background: var(--ochre); color: var(--ink); }
   .cta-band .btn-ochre:hover{ background: #fff; }
 
+  #join-form {
+    max-width: 28rem;
+    align-items: center;
+  }
+
   /* Footer */
   footer{
     background: var(--ink);
