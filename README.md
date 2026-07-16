@@ -52,7 +52,7 @@ Building this web site with the users in mind was at the forfront of this design
 **Content Requirements**
 - Clear, motivational text about the club’s mission.
 - Event schedules and descriptions.
-- Forms for membership sign-up.
+- Form for membership sign-up.
 - Give people in the community a voice and promote awareness with forums and interactive sections.
 
 
@@ -65,6 +65,7 @@ Building this web site with the users in mind was at the forfront of this design
   - Clear call-to-action buttons.
   - Prominent placement of events.
   - Provide resourse materials for help and support
+  - Allow them to sign up for updates
 
 
 **User Flow**
@@ -86,13 +87,10 @@ Building this web site with the users in mind was at the forfront of this design
 
 ### Colour Scheme
 
-Explain your colors and color scheme. Consider adding a link and screenshot for your color scheme using [coolors](https://coolors.co/generate).
+![screenshot](documentation/images/color-palette.png)
 
-When you add a color to the palette, the URL is dynamically updated, making it easier for you to return back to your color palette later if needed. See example below:
 
---- END --- 
-
-I used claude ai for suggestions of the color palette.
+I used [claude ai](https://claude.ai/public/artifacts/5e3b2581-4904-46c4-97a6-06271754741d) for suggestions of the color palette.
 
 Why this palette over the obvious choices: websites in this space default to either (a) a single institutional blue, which reads corporate/cold, or (b) a rainbow gradient, which can feel like a stock "diversity" cliché rather than a considered brand. This palette keeps one warm neutral, one dark ink, and a small set of accent colors used consistently by role (ochre = primary action, teal = section labels, coral = interaction states, five threads = the "many voices" motif) — deliberate rather than decorative, and every text/background pairing was checked against WCAG AA contrast minimums.
 
@@ -111,76 +109,87 @@ Explain any fonts and icon libraries used, like **Google Fonts**, **Font Awesome
 
 ⚠️ --- END --- ⚠️
 
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+- [Display — Fraunces](https://fonts.google.com/specimen/Montserrat) A warm, slightly quirky humanist serif instead of the generic geometric sans most templates default to. Gives headlines personality and warmth without looking decorative or hard to read.
+- [Body — Work Sans](https://fonts.google.com/specimen/Lato) A clean, highly legible grotesque sans for body copy — neutral enough not to compete with Fraunces, and reads well at small sizes for long paragraphs.
+- [Utility — IBM Plex Mono](https://fontawesome.com) Used only for labels, stats, dates, and eyebrows — the monospace rhythm signals "metadata" at a glance and keeps those small elements from being mistaken for body text.
 
 ## Responsiveness
 
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Bootstrap](https://getbootstrap.com/) to make sure my site looks good on all screen sizes and used [Google chrome dev tools](https://developer.chrome.com/docs/devtools?gad_source=1&gad_campaignid=22379518754&gbraid=0AAAAAC1d8f40QHFTYh_nAiYyPVv-AXwGa&gclid=Cj0KCQjw39zSBhDhARIsANammDsu7eijDNzex9dhMAqVpGC9vDJsAl9DI32mthNNHSTZ5i4i1QrtVAUaAqVXEALw_wcB) to test it with. 
+([amiresponsive](https://ui.dev/amiresponsive?url=https://sarahjhill.github.io/many-voices)show a lovely demonstration of how it looks on different screens. You can interactively scroll on them to see the whole view.
 
 ## Wireframes
 
 | Page | Mobile | Tablet | Desktop |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/wireframes/mobile-home.png) | ![screenshot](documentation/wireframes/tablet-home.png) | ![screenshot](documentation/wireframes/desktop-home.png) |
-| Gallery | ![screenshot](documentation/wireframes/mobile-gallery.png) | ![screenshot](documentation/wireframes/tablet-gallery.png) | ![screenshot](documentation/wireframes/desktop-gallery.png) |
-| Signup | ![screenshot](documentation/wireframes/mobile-signup.png) | ![screenshot](documentation/wireframes/tablet-signup.png) | ![screenshot](documentation/wireframes/desktop-signup.png) |
-| Confirmation | ![screenshot](documentation/wireframes/mobile-confirmation.png) | ![screenshot](documentation/wireframes/tablet-confirmation.png) | ![screenshot](documentation/wireframes/desktop-confirmation.png) |
-| 404 | ![screenshot](documentation/wireframes/mobile-404.png) | ![screenshot](documentation/wireframes/tablet-404.png) | ![screenshot](documentation/wireframes/desktop-404.png) |
+| Fullscreen | ![screenshot](documentation/mockups/images/fullscreen-mockup.png) | | |
+| Longshot | ![screenshot](ddocumentation/mockups/images/longshot-full.png) |  |  |
+| psd | ![screenshot](documentation/mockups/images/psd-mockup.png) |  |  |
+| Viewport | ![screenshot](ddocumentation/mockups/images/vp-mockup.png) |  | 
 
 ## User Stories
 
+ 1. Prospective member browsing the site
+As a student who's never heard of Many Voices, I want to quickly understand what the group stands for and does, so that I can decide if it's worth getting involved.
+Acceptance criteria: Hero section states the mission in one sentence; Pillars section is visible without scrolling past the fold on desktop; nav lets me jump to About in one click.
+
+2. Student seeking a peer mentor
+As a student struggling to find community, I want to sign up for the mentorship circle directly from the site, so that I don't have to email someone and wait.
+Acceptance criteria: "Get Involved" CTA leads to a mentorship sign-up path; sign-up deadline is visible on the events list; confirmation is shown after submitting.
+
+3. Ally wanting to support without overstepping
+As a student who wants to be a good ally, I want guidance on how to get involved appropriately, so that I contribute without taking up space meant for others.
+Acceptance criteria: Allyship pillar has its own description distinct from the other three; "Join" CTA language doesn't imply membership is restricted; at least one resource or event is framed as ally-focused.
+
+4. Student reading peer stories before joining
+As a hesitant student, I want to read real experiences from current members, so that I can gauge whether I'd feel welcome.
+Acceptance criteria: Voices section shows at least 4 distinct quotes with name and year; each quote is attributed to a specific (even if pseudonymous) student, not anonymous copy.
+
+5. Student needing urgent support resources
+As a student in distress, I want to find relevant campus support resources fast, so that I get help without digging through unrelated content.
+Acceptance criteria: Resources section is reachable from the main nav; each resource card names what it's for in plain language; links open the correct external page.
 
 
-
-| Target | Expectation | Outcome |
-| --- | --- | --- |
-| As a user | I would like to see examples of why I should join | so that I can learn about the club’s mission and purpose before deciding to join. |
-| As a user | I would like to view the running schedule/timetable | so that I can decide when to join a session. |
-| As a user | I would like to see the details of different running events | so that I can prepare accordingly. |
-| As an user | I would like to view a gallery of past events | so that I can see photos of myself and others from previous runs. |
-| As a user | I would like to sign up for the running club | so that I can join the community and participate in events. |
-| As a user | I would like to follow the club on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with club news and events. |
-| As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. |
-| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. |
 
 ## Features
 
-⚠️ INSTRUCTIONS ⚠️
+- A friendly and inclusive header to clearly show what we are about and who we are for with an easy to use navigation so you can quickly scroll to the parts you want.
 
-In this section, you should go over the different parts of your project, and describe each feature. You should explain what value each of the features provides for the user, focusing on your target audience, what they want to achieve, and how your project can help them achieve these things.
+![screenshot](documentation/images/hero-section.png)
 
-**IMPORTANT**: Remember to always include a screenshot of each individual feature!
+- What we stand for section promoting safy and inclusion within the community. The four pillars of diversity and inclusion.
 
-⚠️ --- END --- ⚠️
+![screenshot](documentation/images/fourpillars-section.png)
 
-### Existing Features
 
-| Feature | Notes | Screenshot |
-| --- | --- | --- |
-| Navbar | Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, and Signup page, and is identical in each page to allow for easy navigation. On the smallest screens, a burger icon is used to toggle the navbar so it doesn't take up too much space. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button. The navbar is also `fixed`, so it stays in view even if the user has scrolled to the bottom of the page. | ![screenshot](documentation/features/navbar.png) |
-| Hero Image | The landing includes a photo with text-overlay to allow the user to see exactly which location this site would be applicable to. This section introduces the user to *Love Running* with an eye-catching animation to grab their attention. | ![screenshot](documentation/features/hero-image.png) |
-| Club Ethos | The club ethos section will allow the user to see the benefits of joining the *Love Running* meetups, as well as the benefits of running overall. The user will see the value of signing up for the *Love Running* meetups. This should encourage the user to consider running as their form of exercise. | ![screenshot](documentation/features/club-ethos.png) |
-| Schedule | This section will allow the user to see exactly when the meetups will happen, where they will be located, and how long the run will be (in kilometers). The type of run (trail or road) is also shown, to help runners choose the meetups that best match their preference. This section will be updated as these times change to keep the user up to date. | ![screenshot](documentation/features/schedule.png) |
-| Footer | The footer includes links to the relevant social media sites for *Love Running*. The links will open in a new tab to allow easy navigation for the user. The footer is valuable to the user, as it encourages them to keep connected via social media. | ![screenshot](documentation/features/footer.png) |
-| Gallery | The gallery will provide the user with supporting images to see what the meet-ups look like. This section is valuable to the user, as they will be able to easily identify the types of events that the organization puts together. It's responsive so no images stretch or skew, showing images stacked by 1 on mobile, by 2 on smaller tablets, by 3 on desktop, and by 4 on larger screens. | ![screenshot](documentation/features/gallery.png) |
-| Signup | This page will allow the user to sign up to *Love Running* and start their running journey with the community. The user will be able specify if they would like to take part in road, trail, or both types of running. The user will be asked to submit their full name and email address. | ![screenshot](documentation/features/singup.png) |
-| Confirmation | The confirmation page will give the illusion that the signup form was submitted successfully to the *Love Running* club. Due to the lack of a database or email system so far, this is a fake confirmation page, and will automatically redirect the user back to the home page after 10 seconds. | ![screenshot](documentation/features/confirmation.png) |
-| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Love Running* site by using the standard navbar and footer. | ![screenshot](documentation/features/404.png) |
+- The voices section currently has things people have said about their time with us however this will be updated when we have frown our community for users to be able to interact, leave stories and photos and share news.
+
+![screenshot](documentation/images/voices-section.png)
+
+- The events section has all the information of the latest local events.
+
+![screenshot](documentation/images/events.png)
+
+- The resourses section has links to external support that is available to them.
+
+![screenshot](documentation/images/resources.png)
+
+
+- The email section allow the user to register their interest so we can add them to a mailing list and keep them informed of all up and coming events.
+
+![screenshot](documentation/images/email.png)
+
+You can also see the footer above which has quick links, contact information and I have included my credits with a link to my github profile.
+
+
+
+--- END ---
 
 ### Future Features
 
-- **Image Section**: Allow users to share and veiw their pictures.
-- **Training Plans**: Offer customizable training plans for runners of all levels (beginner, intermediate, advanced) with notifications and reminders.
+- **Interactive Section**: Allow users to share and veiw their pictures, stories and interact with each other
 - **Event Registration & Payment**: Integrate an option for students to donate, suggest and pay for future events
 - **Achievements & Badges**: Introduce a gamification system where users earn badges or achievements for supporting others and interacting.
-- **Live Event Tracking**: Provide real-time tracking for major club events so users can follow along or support the community.
-- **Students Blog**: Include a blog section for members to share their experiences, tips, and stories, fostering community engagement.
-- **Weekly Challenges**: Implement weekly challenges or group challenges to keep users motivated and engaged.
-- **Member Forums or Groups**: Introduce discussion boards or group chats for students to connect, discuss upcoming events, or share training tips.
-- **Charity Partnerships**: Offer integration with local charities where club members can raise money or get support.
 
 ## Tools & Technologies
 
