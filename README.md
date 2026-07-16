@@ -90,7 +90,7 @@ Explain your colors and color scheme. Consider adding a link and screenshot for 
 
 When you add a color to the palette, the URL is dynamically updated, making it easier for you to return back to your color palette later if needed. See example below:
 
-⚠️ --- END --- ⚠️
+--- END --- 
 
 I used claude ai for suggestions of the color palette.
 
