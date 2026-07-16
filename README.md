@@ -105,10 +105,6 @@ Why this palette over the obvious choices: websites in this space default to eit
 
 ### Typography
 
-Explain any fonts and icon libraries used, like **Google Fonts**, **Font Awesome**, etc. Consider adding a link to each font used, the Font Awesome site (if used), or similar icon library.
-
---- END ---
-
 - [Display — Fraunces](https://fonts.google.com/specimen/Montserrat) A warm, slightly quirky humanist serif instead of the generic geometric sans most templates default to. Gives headlines personality and warmth without looking decorative or hard to read.
 - [Body — Work Sans](https://fonts.google.com/specimen/Lato) A clean, highly legible grotesque sans for body copy — neutral enough not to compete with Fraunces, and reads well at small sizes for long paragraphs.
 - [Utility — IBM Plex Mono](https://fontawesome.com) Used only for labels, stats, dates, and eyebrows — the monospace rhythm signals "metadata" at a glance and keeps those small elements from being mistaken for body text.
@@ -120,10 +116,10 @@ I've used [Bootstrap](https://getbootstrap.com/) to make sure my site looks good
 
 ## Wireframes
 
-| Page | Mobile | Tablet | Desktop |
+| Page |- | - | - |
 | --- | --- | --- | --- |
 | Fullscreen | ![screenshot](documentation/mockups/images/fullscreen-mockup.png) | | |
-| Longshot | ![screenshot](ddocumentation/mockups/images/longshot-full.png) |  |  |
+| Longshot | ![screenshot](documentation/mockups/images/longshot-full.png) |  |  |
 | psd | ![screenshot](documentation/mockups/images/psd-mockup.png) |  |  |
 | Viewport | ![screenshot](ddocumentation/mockups/images/vp-mockup.png) |  | 
 
@@ -217,7 +213,7 @@ You can also see the footer above which has quick links, contact information and
 
 [GitHub Projects](https://www.github.com/sarahjhill/many-voices/projects) served as an Agile tool for this project. Through it, EPICs, User Stories, issues/bugs, and Milestone tasks were planned, then subsequently tracked on a regular basis using the Kanban project board.
 
-![screenshot](documentation/gh-projects.png)
+![screenshot](documentation/images/github-projects.png)
 
 ### GitHub Issues
 
