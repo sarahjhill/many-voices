@@ -107,7 +107,7 @@ Why this palette over the obvious choices: websites in this space default to eit
 
 Explain any fonts and icon libraries used, like **Google Fonts**, **Font Awesome**, etc. Consider adding a link to each font used, the Font Awesome site (if used), or similar icon library.
 
-⚠️ --- END --- ⚠️
+--- END ---
 
 - [Display — Fraunces](https://fonts.google.com/specimen/Montserrat) A warm, slightly quirky humanist serif instead of the generic geometric sans most templates default to. Gives headlines personality and warmth without looking decorative or hard to read.
 - [Body — Work Sans](https://fonts.google.com/specimen/Lato) A clean, highly legible grotesque sans for body copy — neutral enough not to compete with Fraunces, and reads well at small sizes for long paragraphs.
@@ -150,7 +150,6 @@ As a student in distress, I want to find relevant campus support resources fast,
 Acceptance criteria: Resources section is reachable from the main nav; each resource card names what it's for in plain language; links open the correct external page.
 
 
-
 ## Features
 
 - A friendly and inclusive header to clearly show what we are about and who we are for with an easy to use navigation so you can quickly scroll to the parts you want.
@@ -182,7 +181,6 @@ Acceptance criteria: Resources section is reachable from the main nav; each reso
 You can also see the footer above which has quick links, contact information and I have included my credits with a link to my github profile.
 
 
-
 --- END ---
 
 ### Future Features
@@ -190,6 +188,7 @@ You can also see the footer above which has quick links, contact information and
 - **Interactive Section**: Allow users to share and veiw their pictures, stories and interact with each other
 - **Event Registration & Payment**: Integrate an option for students to donate, suggest and pay for future events
 - **Achievements & Badges**: Introduce a gamification system where users earn badges or achievements for supporting others and interacting.
+
 
 ## Tools & Technologies
 
@@ -215,11 +214,6 @@ You can also see the footer above which has quick links, contact information and
 
 ### GitHub Projects
 
-⚠️ TIP ⚠️
-
-Consider adding screenshots of your Projects Board(s), Issues (open and closed), and Milestone tasks.
-
-⚠️ --- END ---⚠️
 
 [GitHub Projects](https://www.github.com/sarahjhill/many-voices/projects) served as an Agile tool for this project. Through it, EPICs, User Stories, issues/bugs, and Milestone tasks were planned, then subsequently tracked on a regular basis using the Kanban project board.
 
@@ -229,10 +223,6 @@ Consider adding screenshots of your Projects Board(s), Issues (open and closed),
 
 [GitHub Issues](https://www.github.com/sarahjhill/many-voices/issues) served as an another Agile tool. There, I managed my User Stories and Milestone tasks, and tracked any issues/bugs.
 
-| Link | Screenshot |
-| --- | --- |
-| [![GitHub issues](https://img.shields.io/github/issues-search/sarahjhill/many-voices?query=is%3Aissue%20is%3Aopen%20-label%3Abug&label=Open%20Issues&color=yellow)](https://www.github.com/sarahjhill/many-voices/issues?q=is%3Aissue%20is%3Aopen%20-label%3Abug) | ![screenshot](documentation/gh-issues-open.png) |
-| [![GitHub closed issues](https://img.shields.io/github/issues-search/sarahjhill/many-voices?query=is%3Aissue%20is%3Aclosed%20-label%3Abug&label=Closed%20Issues&color=green)](https://www.github.com/sarahjhill/many-voices/issues?q=is%3Aissue%20is%3Aclosed%20-label%3Abug) | ![screenshot](documentation/gh-issues-closed.png) |
 
 ### MoSCoW Prioritization
 
@@ -243,10 +233,19 @@ I've decomposed my Epics into User Stories for prioritizing and implementing the
 - **Could Have**: has small impact if left out (*the rest ~20% of stories*)
 - **Won't Have**: not a priority for this iteration - future features
 
+[Github project board](https://github.com/users/sarahjhill/projects/9)
+
+![screenshot](documentation/images/github-projects.png)
+
 ## Testing
 
-> [!NOTE]  
-> For all testing, please refer to the [TESTING.md](TESTING.md) file.
+CSS validation passed with no issues with [w3c](hhttps://jigsaw.w3.org/css-validator/validator) 
+
+![screenshot](documentation/images/css-validation.png)
+
+I tested proformance with [Google lighthouse](https://developer.chrome.com/docs/lighthouse) with optimal performance outcome.
+
+![screenshot](documentation/images/lighthouse-testing.png)
 
 ## Deployment
 
@@ -295,94 +294,49 @@ By forking the GitHub Repository, you make a copy of the original repository on 
 
 ### Local VS Deployment
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site. Generally, there shouldn't be [m]any major differences, so if you honestly cannot find any differences, feel free to use the following example:
-
-⚠️ --- END --- ⚠️
-
 There are no remaining major differences between the local version when compared to the deployed version online.
 
 ## Credits
 
-⚠️ INSTRUCTIONS ⚠️
+[Claude ai](https://ai-chat.pro/?model=claude&utm_source=google&utm_medium=cpc&utm_term=claude%20ai&device=c&matchtype=e&network=g&utm_campaign=15.06_WW_search.models.desktop.en&gad_source=1&gad_campaignid=23947157923&gbraid=0AAAABD05XUB0vpHja4lTqyV1TqCls9ypu&gclid=Cj0KCQjwguLSBhDLARIsAH-yPrEEKrckNb9H0N3KtjCk42Xubh2HAR65SyNENKeqJo70A1eWLaUMdi4aAt8REALw_wcB) was used to choose the color scheme and fonts.
 
-In the following sections, you need to reference where you got your content, media, and any extra help. It is common practice to use code from other repositories and tutorials (which is totally acceptable), however, it is important to be very specific about these sources to avoid potential plagiarism.
+[Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was used for the code to make the sections and forms and navbar. Also to make sure the site was responsive and looking good on all devises.
 
-⚠️ --- END ---⚠️
+[co pilot](https://copilot.microsoft.com/) was used to create the hero image and edit for web optimisation.
+
+ --- END ---
 
 ### Content
 
-⚠️ INSTRUCTIONS ⚠️
+Images were generated with copiot.
+Copy was suggested by Claude ai
 
-Use this space to provide attribution links for any borrowed code snippets, elements, and resources. Ideally, you should provide an actual link to every resource used, not just a generic link to the main site. If you've used multiple components from the same source (such as Bootstrap), then you only need to list it once, but if it's multiple Codepen samples, then you should list each example individually. If you've used AI for some assistance (such as ChatGPT or Perplexity), be sure to mention that as well. A few examples have been provided below to give you some ideas.
-
-Eventually you'll want to learn how to use Git branches. Here's a helpful tutorial called [Learn Git Branching](https://learngitbranching.js.org) to bookmark for later.
-
-⚠️ --- END ---⚠️
+--- END ---
 
 | Source | Notes |
 | --- | --- |
 | [Markdown Builder](https://markdown.2bn.dev) | Help generating Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | "How to Write a Git Commit Message" |
-| [Love Running](https://codeinstitute.net) | Code Institute walkthrough project inspiration |
-| [ChatGPT](https://chatgpt.com) | Help with code logic and explanations |
+| [Process](https://codeinstitute.net) | Code Institute walkthrough project inspiration |
+| [Claude ai](https://claude.ai) | Help with code logic and explanations |
 
 ### Media
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to provide attribution links to any media files borrowed from elsewhere (images, videos, audio, etc.). If you're the owner (or a close acquaintance) of some/all media files, then make sure to specify this information. Let the assessors know that you have explicit rights to use the media files within your project. Ideally, you should provide an actual link to every media file used, not just a generic link to the main site, unless it's AI-generated artwork.
-
-Looking for some media files? Here are some popular sites to use. The list of examples below is by no means exhaustive.
-
 - Images
-    - [Pexels](https://www.pexels.com)
-    - [Unsplash](https://unsplash.com)
-    - [Pixabay](https://pixabay.com)
-    - [Lorem Picsum](https://picsum.photos) (placeholder images)
-    - [Wallhere](https://wallhere.com) (wallpaper / backgrounds)
-    - [This Person Does Not Exist](https://thispersondoesnotexist.com) (reload to get a new person)
-- Audio
-    - [Audio Micro](https://www.audiomicro.com/free-sound-effects)
-    - [Button Clicks](https://www.zapsplat.com/sound-effect-category/button-clicks)
-    - [Lasers & Weapons](https://www.zapsplat.com/sound-effect-category/lasers-and-weapons/page/5)
-    - [Puzzle Music](https://soundimage.org/puzzle-music)
-    - [Camtasia Audio](https://library.techsmith.com/camtasia/assets/Audio)
-- Video
-    - [Videvo](https://www.videvo.net)
+    - [co pilot](https://copilot.microsoft.com/)
+    - SVG
 - Image Compression
-    - [TinyPNG](https://tinypng.com) (for images <5MB)
-    - [CompressPNG](https://compresspng.com) (for images >5MB)
+    - [Photoshop](https://www.adobe.com/uk/products/photoshop/landpa.html?mv=search&mv=search&mv2=paidsearch&sdid=2XBSBWBF&ef_id=Cj0KCQjwguLSBhDLARIsAH-yPrGxeuB5azjIIBpwc5EPToqGGZg2TfWrpO-4sOHI_FMIsML2MzqFhQgaAtulEALw_wcB:G:s&s_kwcid=AL!3085!3!763734636132!e!!g!!photoshop!22787824038!180268875777&gad_source=1&gad_campaignid=22787824038&gbraid=0AAAAADraYsJrMVhd5C65mSzo4xe86QI9Z&gclid=Cj0KCQjwguLSBhDLARIsAH-yPrGxeuB5azjIIBpwc5EPToqGGZg2TfWrpO-4sOHI_FMIsML2MzqFhQgaAtulEALw_wcB) 
 
-A few examples have been provided below to give you some ideas on how to do your own Media credits.
-
-⚠️ --- END ---⚠️
-
-| Source | Notes |
-| --- | --- |
-| [favicon.io](https://favicon.io) | Generating the favicon |
-| [Love Running](https://codeinstitute.net) | Sample images provided from the walkthrough projects |
-| [Font Awesome](https://fontawesome.com) | Icons used throughout the site |
-| [Pexels](https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg) | Hero image |
-| [Wallhere](https://c.wallhere.com/images/9c/c8/da4b4009f070c8e1dfee43d25f99-2318808.jpg!d) | Background wallpaper |
-| [Pixabay](https://cdn.pixabay.com/photo/2017/09/04/16/58/passport-2714675_1280.jpg) | Background wallpaper |
-| [DALL-E 3](https://openai.com/index/dall-e-3) | AI generated artwork |
-| [TinyPNG](https://tinypng.com) | Compressing images < 5MB |
-| [CompressPNG](https://compresspng.com) | Compressing images > 5MB |
-| [CloudConvert](https://cloudconvert.com/webp-converter) | Converting images to `.webp` |
+--- END ---
 
 ### Acknowledgements
+Thank you to [Code Insitute](https://codeinstitute.net/) for teaching the building process and coding and also to the mentors for supporting and inspiring.
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to provide attribution and acknowledgement to any supports that helped, encouraged, or supported you throughout the development stages of this project. It's always lovely to appreciate those that help us grow and improve our developer skills. A few examples have been provided below to give you some ideas.
-
-⚠️ --- END ---⚠️
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) Tutor Team for their assistance with troubleshooting and debugging some project issues.
-- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) and [Code Institute Discord community](https://discord-portal.codeinstitute.net) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
-- I would like to thank my partner, for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
+- I would also like to thank [Code Institute Discord community](https://discord-portal.codeinstitute.net) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
+- I would like to thank my partner, for believing in me, and inspiring me with many great ideas that I now have me to make this transition into software development.
+
 
