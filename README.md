@@ -239,6 +239,10 @@ I've decomposed my Epics into User Stories for prioritizing and implementing the
 
 ## Testing
 
+HTML validated with no errors with [w3c validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsarahjhill.github.io%2Fmany-voices%2F)
+
+![snapshot](documentation/images/html-validation.png)
+
 CSS validation passed with no issues with [w3c](hhttps://jigsaw.w3.org/css-validator/validator) 
 
 ![screenshot](documentation/images/css-validation.png)
@@ -277,12 +281,6 @@ You can clone the repository by following these steps:
 6. In your IDE Terminal, type the following command to clone the repository:
 	- `git clone https://www.github.com/sarahjhill/many-voices.git`
 7. Press "Enter" to create your local clone.
-
-Alternatively, if using Ona (formerly Gitpod), you can click below to create your own workspace using this repository.
-
-[![Open in Ona-Gitpod](https://ona.com/run-in-ona.svg)](https://gitpod.io/#https://www.github.com/sarahjhill/many-voices)
-
-**Please Note**: in order to directly open the project in Ona (Gitpod), you should have the browser extension installed. A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
 
 #### Forking
 
